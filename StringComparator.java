@@ -11,27 +11,17 @@ public class StringComparator {
 		
 		String name2;
 		
-		System.out.println("Enter a string 1: ");
-		
-		name1=scanner.next();
-		
-		System.out.println("Enter a string 2: ");
-		
-		name2=scanner.next();
-		
-		if(name1.equalsIgnoreCase(name2)){
+		do{
+
+			System.out.println("Enter a string 1: ");
 			
-			System.out.println("The two strings are the same.");
+			name1=scanner.next();
 			
-		}
-		
-		else{
+			System.out.println("Enter a string 2: ");
 			
-			System.out.println("The two strings are not the same.");
+			name2=scanner.next();
 			
-		}
-		
-		
+		}while(!(name1.equalsIgnoreCase(name2)));//當滿足while判斷時，則繼續執行
 		
 		
 	}
