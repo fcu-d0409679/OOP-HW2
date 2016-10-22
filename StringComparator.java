@@ -23,6 +23,7 @@ public class StringComparator {
 			
 		}while(!(name1.equalsIgnoreCase(name2)));//當滿足while判斷時，則繼續執行
 		
+		scanner.close();//關閉輸入(沒寫也不會怎樣
 		
 	}
 

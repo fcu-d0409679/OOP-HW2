@@ -65,7 +65,7 @@ public class PrintNumberInWord {
 				System.out.println("The input integer is \"OTHER\".");
 		}
 		
-		
+		scanner.close();//關閉輸入(沒寫也不會怎樣
 		
 	}
 
